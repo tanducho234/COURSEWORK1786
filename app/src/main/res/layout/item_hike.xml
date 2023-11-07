@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/hikeName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/edittext_border"
+        android:backgroundTint="#ececec"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_marginStart="10dp"
+        android:id="@+id/moreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5CF535"
+        android:text="More"
+        android:textColor="#000000"
+        tools:cornerRadius="12dp" />
+
+    <Button
+        android:layout_marginStart="10dp"
+        android:id="@+id/deleteAllHikeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#de3030"
+        android:text="Delete"
+        tools:cornerRadius="12dp"
+        android:textColor="#000000" />
+</LinearLayout>
